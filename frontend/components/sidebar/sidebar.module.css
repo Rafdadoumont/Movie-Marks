@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.movieMarks {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 17.5vw;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    overflow-x: hidden;
+    padding: 30px 10px 30px 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.userContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.username {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.link {
+    text-decoration: none;    
+    color: inherit;
+}
+
+
+.logoutButton {
+    background-color: #D91B1B;
+    margin-top: 18rem;
+}
+
+.logoutButton:hover {
+    background-color: #D91B1B;
+    margin-top: 18rem;
+}

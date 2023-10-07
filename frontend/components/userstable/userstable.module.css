@@ -1,0 +1,11 @@
+.followButton{
+    width: 115px;
+}
+
+.unfollowButton{
+    background-color: grey;
+}
+
+.followingText{
+    color: grey;
+}

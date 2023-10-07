@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+main {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 17.5vw;
+    width: calc(100% - 17.5vw);
+}
+
+.markContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feedContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}

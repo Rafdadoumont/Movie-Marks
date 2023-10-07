@@ -1,0 +1,40 @@
+.userContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.625rem;
+    margin-bottom: 3.125rem;
+    min-height: 110px;
+}
+
+.username {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.circle {
+    max-height: 0.4375rem;
+}
+
+.link {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+}
+
+.link:hover {
+    color:#2e2e2e
+}
+
+.followContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 0.0625rem;
+}
+
+.followContainer > * {
+    color:rgb(111, 111, 111)
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.movieMarks {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    margin-bottom: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 30px;
+}
+
+.root {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100vh;
+}
+
+.rightSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100vh;
+    background: #1c43a7;
+}
+
+.imageContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.imageContainer * {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bottomText {
+    display: flex;
+    gap: 5px;
+}
+
+.loginButton {
+    text-decoration: none;
+    color: #2A71D4;
+}

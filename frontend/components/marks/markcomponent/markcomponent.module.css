@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    max-width: 400px;
+    height: 300px;
+    
+}
+
+.title {
+    font-weight: bold;
+}
+
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:3px
+}
+
+.content {
+    padding-bottom: 0;
+}
+
+.cardActions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: auto;
+}
+
+
+.comment {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}

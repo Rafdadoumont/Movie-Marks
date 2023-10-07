@@ -1,0 +1,20 @@
+.form {
+    color: black;
+    display: flex;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    right: 0;
+}
+
+.form input {
+    color: black;
+}
+
+.errorMessage {
+    color : #D3302F;
+}
+
+.errorMessage:hover {
+    color : #D3302F;
+}
